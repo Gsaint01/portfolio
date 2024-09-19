@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-html{
-    scroll-behavior: smooth;
-}
-body{
+body {
     background-color: white;
 }
-nav{
+html {
+    scroll-behavior: smooth;
+}
+nav {
     width: 100%;
     background-color: black;
     display: flex;
@@ -18,7 +19,7 @@ nav{
     align-items: center;
     padding: 20px;
 }
-.logo{
+.logo {
     font-size: 30px;
     font-weight: bolder;
     color: blue;
@@ -26,60 +27,61 @@ nav{
     text-transform: uppercase;
     padding: 20px;
 }
-nav ul li{
+nav ul li {
     display: inline;
     font-size: 30px;
     margin: 20px;
 }
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     align-items: center;
     font-weight: bolder;
     transition: .5s;
 }
-nav ul li a:hover{
+nav ul li a:hover {
     color: green;
     text-decoration: dashed;
     transition: 5s;
 }
-      /* HERO SECTION start */
-#hero{
+
+/* HERO SECTION start */
+#hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 40px;
     padding-bottom: 20px;
 }
-.right{
+.right {
     font-size: 50px;
     letter-spacing: 1px;
 }
-.right h1 span{
-   -webkit-text-stroke:  3px green;
+.right h1 span {
+    -webkit-text-stroke: 3px green;
     color: transparent;
 }
-.right button{
+.right button {
     background-color: blue;
     font-size: 20px;
     padding: 18px 10px;
     border-radius: 20px;
 }
-.right button:hover{
+.right button:hover {
     opacity: .4;
 }
-.right button a{
+.right button a {
     text-decoration: none;
     color: white;
 }
-.left img{
+.left img {
     width: 480px;
     height: 700px;
-    top:0;
 }
-      /* HERO SECTION end */
+/* HERO SECTION end */
+
 /* ABOUT SECTION START */
-#About{
+#About {
     background-color: grey;
     border: 2px dashed black;
     border-radius: 20px;
@@ -88,15 +90,15 @@ nav ul li a:hover{
     padding: 50px 100px;
     gap: 30px;
 }
-.aboutleft img{
+.aboutleft img {
     width: 400px;
     border-radius: 20px;
 }
-.aboutright{
-    font-size:30px ;
+.aboutright {
+    font-size: 30px;
     z-index: 100;
 }
-.watermark{
+.watermark {
     position: absolute;
     top: 66rem;
     font-size: 100px;  
@@ -105,57 +107,58 @@ nav ul li a:hover{
     margin-left: 40px;
     opacity: 0.2;
 }
-.aboutright h2{
+.aboutright h2 {
     font-size: 30px;
     position: relative;   
 }
-.aboutright h4{
+.aboutright h4 {
     color: rgba(0, 0, 0, 0.918);
 }
-.child{
+.child {
     margin: 25px;
 }
-.same{
+.same {
     display: flex;
     gap: 20px;
     line-height: 35px;
 }
 /* ABOUT SECTION END */
+
 /* WORK SECTION start */
-.can{
-     margin-top: 50px;
+.can {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.can h2{
+.can h2 {
     font-size: 40px;
     font-weight: 999;
     margin-bottom: 20px;
 }
-.profile{
+.profile {
     display: grid;
-    place-content:center;
+    place-content: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
-.work{
+.work {
     background-color: red;
     margin: 2px;
     width: 350px;
     height: 300px;
     position: relative;
 }
-.work img{
+.work img {
     width: 100%;
     height: 100%;
 }
-.visit{
+.visit {
     color: white;
     font-weight: 999;
     width: 100%;
-    position:absolute ;
+    position: absolute;
     bottom: 0;
     display: flex;
     flex-direction: column;
@@ -164,65 +167,63 @@ nav ul li a:hover{
     transition: 3s;
     opacity: 0;
 }
-.visit a{
+.visit a {
     color: white;
-    margin-top:10px ;
+    margin-top: 10px;
     text-decoration: none;
     font-size: 20px;
     background-color: blue;
     padding: 10px;
     border-radius: 10px;
 }
-
-.visit:hover{
+.visit:hover {
     opacity: 1;
     transform: rotateY('30');
     height: 100%;
     transition: 1s;
 }
-.visit a:hover{
+.visit a:hover {
     background-color: red;
 }
-.mark h5{
+.mark h5 {
     position: absolute;
-    top: 104rem;
+    top: 101.5rem;
     left: 25rem;
     font-size: 90px;
     -webkit-text-stroke: 5px black;
     color: transparent;
     opacity: 0.2;
-    
 }
-/*WORK SECTION  END */
-/* SKILLS SECTION START  */
-.skill{
+/* WORK SECTION END */
+
+/* SKILLS SECTION START */
+.skill {
     margin: 20px;
     background-color: #808080;
     padding: 40px;
     line-height: 6px;
 }
-.skill h3{
+.skill h3 {
     text-align: center;
     text-decoration: underline;
     font-size: 50px;
 }
-.pic img{
+.pic img {
     width: 1200px;
 }
 /* SKILLS SECTION END */
-.purple{
+
+.purple {
     display: flex;
     border: 30px double rgb(231, 158, 223);
-    /* margin: px; */
     border-radius: 20px;
     width: 100%;
     height: 110vh;
 }
-.purple h1{
+.purple h1 {
     text-align: center;
-    
 }
-.purpleright{
+.purpleright {
     width: 100%;
     height: 100%;
     background-color: rgba(66, 190, 239, 0.852);
@@ -231,71 +232,119 @@ nav ul li a:hover{
     text-transform: capitalize;
     padding: 90px;
 }
-.purpleleft{
+.purpleleft {
     width: 100%;
     height: 100%;
     background-color: white;
     padding: 20px;
 }
-.purpleleft h1{
+.purpleleft h1 {
     font-size: 50px;
     text-transform: capitalize;
     font-weight: bolder;
 }
 
-.message{
+.message {
     height: 90px;
     border-right: 2px solid;
     border-bottom-right-radius: 20px;
 }
-.box{
+.box {
     display: grid;
 }
-.box input{
+.box input {
     line-height: 20px;
     width: 100%;
     background-color: rgba(128, 128, 128, 0.174);
-    height:50px;
-    border: none;
+    height: 50px;
 }
-button{
+button {
     margin-left: 200px;
     width: 140px;
     background-color: blue;
     font-size: 20px;
     padding: 18px 10px;
-    border-radius: 20px;
 }
-footer{
+footer {
     width: 100%;
     height: 10vh;
 }
-footer p{
- text-align: end;
- opacity: 0.5;
- font-size: 20px;
+footer p {
+    text-align: end;
+    opacity: 0.5;
+    font-size: 20px;
 }
-/* MEDIA QUERY */
-@media (max-width: 768px ) {
-    .logo{
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .profile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .left img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul li {
         font-size: 20px;
-        padding: 10px;
+        margin: 10px;
     }
-    nav ul li{
-        font-size: 25px;
+    .right {
+        font-size: 18px;
     }
-    .watermark{
-        top: 110rem;
+    .right button{
+        width: 35%;
     }
-    .mark h5{
-        top: 160rem;
-        font-size: 50px;
+    .left img{
+        width: 100%;
     }
-    .pic{
-        margin-right: 50px;
-        background-color: red;
+    #About {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .aboutleft img {
+        width: 100%;
     }
     .pic img{
-      max-width: 800px;
+        width: 100%;
+    }
+    /* #Contact{
+        width: 100%;
+    } */
+    .purpleright{
+        width: 25%;
+        font-size: 100%;
+        padding: 20px;
+    }
+    .watermark{
+        /* width: 100%; */
+        display: none;
+    }
+    .mark{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .right {
+        font-size: 24px;
+    }
+    .skill h3 {
+        font-size: 30px;
+    }
+    button {
+        margin-left: 0;
+        width: 100%;
+    }
+    .pic img{
+        width: 100%;
     }
 }
